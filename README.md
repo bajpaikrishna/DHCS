@@ -40,7 +40,7 @@ pip install numpy matplotlib
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/DHCS.git
+request code over email at email address bajpaikrishna715@gmail.com
 ```
 
 2. Navigate to the project directory:
@@ -65,7 +65,7 @@ The DHCS Algorithm (referred to as "this algorithm") is subject to a **custom li
 
 You may not copy, modify, distribute, or otherwise use the algorithm for any commercial or non-commercial purpose without explicit permission from the author.
 
-For permission inquiries, please contact [Your Email Address].
+For permission inquiries, please contact bajpaikrishna715@gmail.com.
 
 ## Usage
 
