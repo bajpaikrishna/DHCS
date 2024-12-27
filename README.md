@@ -6,6 +6,8 @@ The **Dynamic Hierarchical Cooperative Swarm Algorithm (DHCS)** is a novel optim
 
 This approach is particularly effective for solving complex optimization problems such as the **Ackley function**.
 
+- Refer [DOMCUMENT](DOCUMENT.md) to know more.
+
 ## Features
 
 - **Dynamic Agent Roles**: Agents take on different roles such as explorers, refiners, and leaders based on their performance.
