@@ -1,7 +1,3 @@
-Here’s a detailed structure for the whitepaper or document based on your results, using the **Ackley function**, **1000 dimensions**, and **300 agents**. I've included placeholder sections where you can fill in the specific results, charts, and further analysis.
-
----
-
 # **Dynamic Hierarchical Cooperative Swarm Algorithm (DHCS)**: A Novel Optimization Approach
 
 ## **Abstract**
