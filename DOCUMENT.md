@@ -67,7 +67,7 @@ The algorithm's performance was evaluated in terms of:
 - The algorithm showed rapid convergence, with a significant reduction in the global best fitness within the first few iterations.
 
 ### **Flowchart Diagram for the Algorithm**
-![Flowchart](DHCS_Algorithm_Flowchart.png)
+![Flowchart](DHCS_Algorithm_Code_Flowchart.png)
 
 #### **Convergence Plot**:
 - **Figure 1**: Convergence plot showing the global best fitness across iterations.
