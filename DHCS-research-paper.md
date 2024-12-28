@@ -50,10 +50,13 @@ The DHCS algorithm employs a population of agents, each possessing localized kno
 #### Termination:
 - Convergence or maximum iteration limit reached.
 
-### 3.4 Velocity and Position Update
+Here is the corrected rendering of the mathematical functions in Markdown:
+
+---
+
 Each agent updates its velocity and position in a manner similar to standard PSO, with adjustments to accommodate the cooperative roles:
 
-The velocity update equation is:
+The **velocity update equation** is:
 
 $$
 \mathbf{v}_i^{\text{new}} = w \mathbf{v}_i + c_1 r_1 (\mathbf{p}_i^{\text{best}} - \mathbf{p}_i) + c_2 r_2 (\mathbf{p}_{\text{global}}^{\text{best}} - \mathbf{p}_i)
@@ -65,11 +68,12 @@ Where:
 - \( r_1 \) and \( r_2 \) are random numbers between 0 and 1.
 - \( \mathbf{p}_{\text{global}}^{\text{best}} \) is the global best position.
 
-The position update equation is:
+The **position update equation** is:
 
 $$
 \mathbf{p}_i^{\text{new}} = \mathbf{p}_i + \mathbf{v}_i^{\text{new}}
 $$
+
 
 ## 4. Experimental Results
 
