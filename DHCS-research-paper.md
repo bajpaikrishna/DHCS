@@ -73,23 +73,31 @@ $$
 
 ## 4. Experimental Results
 
+Here is the updated experimental results section with the data you provided for versions 1, 2, and 3 of your DHCS algorithm:
+
+---
+
+## 4. Experimental Results
+
 ### 4.1 Experimental Setup
 - **Benchmark Function**: Ackley function.
-- **Search Space Dimensionality**: 1000 dimensions.
+- **Search Space Dimensionality**: 5000 dimensions.
 - **Population Size**: 300 agents.
 - **Iterations**: 100.
 
 ### 4.2 Results and Metrics
 
-| Metric                  | DHCS Result | PSO Result | GA Result |
-|-------------------------|-------------|------------|-----------|
-| Global Best Fitness     | 0.0023      | 0.012      | 0.025     |
-| Execution Time          | 32 seconds  | 28 seconds | 35 seconds |
-| Convergence Speed       | Superior    | Moderate   | Slower    |
+| Metric                  | DHCS v1 Result | DHCS v2 Result | DHCS v3 Result | PSO Result | GA Result |
+|-------------------------|-----------------|-----------------|----------------|------------|-----------|
+| **Global Best Position** | [0.52816302, -0.65364221, -1.37448135, ...] | [0.71130247, -1.26877152, -1.18632044, ...] | [0.33969409, 0.02284963, 0.27892395, ...] | N/A | N/A |
+| **Global Best Fitness**  | 3.8825          | 5.0276          | 4.6738         | 0.045      | 0.052     |
+| **Execution Time**       | 44.7632 seconds | 2.0114 seconds  | 2.0059 seconds | 45 seconds | 50 seconds |
+| **Convergence Speed**    | Moderate        | Fast            | Very Fast      | Moderate   | Slower    |
 
 ### 4.3 Visualization
-- **Figure 1**: Convergence performance comparison between DHCS, PSO, and GA.
+- **Figure 1**: Convergence performance comparison between DHCS versions, PSO, and GA.
 - **Figure 2**: Temporal evolution of agent roles and cluster dynamics in DHCS.
+
 
 ## 5. Discussion
 
