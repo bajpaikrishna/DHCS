@@ -87,16 +87,17 @@ Here is the updated experimental results section with the data you provided for 
 
 ### 4.2 Results and Metrics
 
-| Metric                  | DHCS v1 Result | DHCS v2 Result | DHCS v3 Result | PSO Result | GA Result |
-|-------------------------|-----------------|-----------------|----------------|------------|-----------|
-| **Global Best Position** | [0.52816302, -0.65364221, -1.37448135, ...] | [0.71130247, -1.26877152, -1.18632044, ...] | [0.33969409, 0.02284963, 0.27892395, ...] | N/A | N/A |
-| **Global Best Fitness**  | 3.8825          | 5.0276          | 4.6738         | 0.045      | 0.052     |
-| **Execution Time**       | 44.7632 seconds | 2.0114 seconds  | 2.0059 seconds | 45 seconds | 50 seconds |
-| **Convergence Speed**    | Moderate        | Fast            | Very Fast      | Moderate   | Slower    |
+| Metric                  | DHCS v1 Result | DHCS v2 Result | DHCS v3 Result | PSO Result |
+|-------------------------|-----------------|-----------------|----------------|------------
+| **Global Best Position** | [0.52816302, -0.65364221, -1.37448135, ...] | [0.71130247, -1.26877152, -1.18632044, ...] | [0.33969409, 0.02284963, 0.27892395, ...] | [4.96074050e+00, -1.19836391e+00, -6.77888194e-03, ...] |
+| **Global Best Fitness**  | 3.8825          | 5.0276          | 4.6738         | 13.1229    | 
+| **Execution Time**       | 44.7632 seconds | 2.0114 seconds  | 2.0059 seconds | 3.4568 seconds | 
+| **Convergence Speed**    | Moderate        | Fast            | Very Fast      | Moderate   |
 
 ### 4.3 Visualization
 - **Figure 1**: Convergence performance comparison between DHCS versions, PSO, and GA.
 - **Figure 2**: Temporal evolution of agent roles and cluster dynamics in DHCS.
+
 
 
 ## 5. Discussion
